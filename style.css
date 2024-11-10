@@ -1,0 +1,150 @@
+/*Estilização Geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+main{
+    color: white;
+    padding: 40px 4%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+header{
+    padding: 40px 4%;
+    background-color: #d6bd91;
+    height: 120px;
+    align-items: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+/*Estilos específicos*/
+
+/*Header*/
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: white;
+    text-decoration: none;
+    transform: scale(1.10);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 25px;
+}
+
+
+/*Main*/
+main section h1{
+    font-size: 60px;
+}
+
+main section h2{
+    font-size: 50px;
+}
+
+main section h3{
+    font-size: 30px;
+}
+
+main section p{
+    font-size: 25px;
+}
+
+main a{
+    color: grey;
+    transition: .2s;
+}
+
+main a:hover{
+    color: gray;
+    transform: scale(1.05);
+}
+
+/*Footer*/
+footer{
+   background-color: #d6bd91;
+   color: white;
+   padding: 10px 20%;
+   display: flex;
+   justify-content: space-between;
+}
+
+/*Classes*/
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.linha-separacao {
+    border: none;
+    height: 1px; 
+    background-color: #ffffff; 
+    margin: 20px 0; 
+}
+
+.HTMLCSS{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 488px;
+    margin-bottom: 100px;
+}
+
+.KITA{
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 488px;
+    margin-bottom: 100px;
+}
+
+.Interesses-box{
+    padding: 40px 4%;
+}
+
+.Interesses-box img{
+    width: 200px; /* Define a largura fixa */
+    height: 200px; /* Define a altura fixa */
+    object-fit: cover; /* Ajusta a imagem para preencher o contêiner mantendo a proporção */
+    display: inline-block;
+    margin: 28px;
+    transition: .2s; /* Espaçamento entre as imagens */
+}
+
+.Interesses-box img:hover{
+    border-color: white;
+    transform: scale(1.10);
+}
